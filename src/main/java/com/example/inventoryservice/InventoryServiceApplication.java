@@ -23,9 +23,9 @@ public class InventoryServiceApplication {
     CommandLineRunner start(VideoRepository videoRepository, CreatorRepository creatorRepository){
         return args -> {
             List<Creator> creators=List.of(
-                    Creator.builder().name("said").email("said@gmail.com").build(),
-                    Creator.builder().name("fahd").email("fahd@gmail.com").build(),
-                    Creator.builder().name("omar").email("omar@gmail.com").build()
+                    Creator.builder().name("Youness").email("Youness@gmail.com").build(),
+                    Creator.builder().name("ahmed").email("ahmed@gmail.com").build(),
+                    Creator.builder().name("ahlam").email("ahlam@gmail.com").build()
             );
 
              creators =creatorRepository.saveAll(creators);
